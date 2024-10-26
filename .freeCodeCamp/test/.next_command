@@ -218,3 +218,12 @@ $(echo ' M e ' | sed 's/ //')
 echo "$(echo ' M e ' | sed 's/ //')"
 echo "$(echo ' M e ' | sed 's/ //')."
 echo "$(echo ' M e ' | sed 's/ //g')."
+echo ' M e '
+echo ' M e '
+echo ' M e '
+echo ' M e '
+echo ' M e '
+echo "$(echo ' M e ' | sed -E 's/^ //g')."
+echo "$(echo ' M e ' | sed -E 's/^ //')."
+echo "$(echo ' M e ' | sed -E 's/^ //g')."
+echo "$(echo ' M e ' | sed 's/^ //g')."
