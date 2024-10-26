@@ -164,3 +164,5 @@ psql --username=freecodecamp --dbname=postgres
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+__vsc_prompt_cmd_original
+./bike-shop.sh
